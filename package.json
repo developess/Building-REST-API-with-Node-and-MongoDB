@@ -7,7 +7,7 @@
   "author": "Jessie Beech <jessie@jessiebeech.com>",
   "license": "MIT",
   "scripts": {
-    "dev:build": "webpack -w",
+    "build": "webpack -w",
     "dev": "cross-env NODE_ENV=development node dist/index.bundle.js"
   },
   "dependencies": {
